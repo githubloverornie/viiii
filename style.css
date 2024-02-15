@@ -1,0 +1,280 @@
+.container{
+  max-width:1300px;
+  margin: 0 auto;
+}
+.tittle_wrapper{
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/12/14/34/background-3078335_960_720.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+.section_prefooter2{
+  background-color: wheat;
+}
+.text_prefooter{
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 20px;
+}
+.text_prefooter2{
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.tittle_happybirthday{
+  color:#000000;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Gentium Book Plus', serif;
+  text-align: center;
+}
+.section-2{
+  background-color: wheat;
+  position: relative;
+  height:800px;
+}
+.tittle_pozdrawia{
+  color: #000000;
+  font-size:35px;
+  max-width:500px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 170px;
+  /* position: absolute;
+  z-index:2;
+  top: 90px;
+  left: 350px; */
+  font-family: 'Gentium Book Plus', serif;
+}
+.pretittle{
+  color: #000000;
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+  padding-right:120px;
+  padding-bottom:200px;
+}
+#img_1{
+  position: absolute;
+  top:200px;
+}
+#img_1{
+  z-index: 1;
+  left:40px;
+}
+.button_love{
+  display: block ;
+  color: #ffffff;
+  font-family: 'Gentium Book Plus', serif;
+  width: 200px;
+  height: 60px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background: #870000;
+  background: -webkit-linear-gradient(to right, #870000, #190a05);
+  background: linear-gradient(to right, #870000, #190a05); 
+  margin-top: 60px
+}
+.button_love_1{
+  display: block ;
+  color: #ffffff;
+  font-family: 'Gentium Book Plus', serif;
+  width: 200px;
+  height: 60px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background: #870000;
+  background: -webkit-linear-gradient(to right, #870000, #190a05);
+  background: linear-gradient(to right, #870000, #190a05); 
+  margin-top: 30px;
+}
+.button_love_2{
+    display: block ;
+  color: #ffffff;
+  font-family: 'Gentium Book Plus', serif;
+  width: 200px;
+  height: 60px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background: #870000;
+  background: -webkit-linear-gradient(to right, #870000, #190a05);
+  background: linear-gradient(to right, #870000, #190a05); 
+  margin-top: 30px;
+}
+.button_love, .button_love_1, .button_love_2:hover{
+  cursor: pointer;
+}
+.image-footer{
+  width: 300px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.image_2-footer{
+  width: 300px;
+  position: absolute;
+  top: 100px;
+  left: 900px
+}
+.footer{
+  background: wheat;
+  height: 450px;
+  position: relative;
+}
+.tittle_photo{
+  text-align: center ;
+  margin:0 auto;
+  font-weight: bold;
+  font-family: 'Gentium Book Plus', sans;
+  font-size: 30px
+}
+.text_article{
+  font-size:30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Gentium Book Plus', serif;
+}
+a{
+  text-decoration:none;
+}
+.section_article{
+  background-image: url(https://cdn.pixabay.com/photo/2012/03/01/01/44/abstract-20360_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+.cosmobaut{
+  display: none;
+}
+.headred{
+  font-size: 120px
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+.text_text{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Gentium Book Plus', serif;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width:1090px){
+  .container{
+    max-width: 750px;
+  }
+  #img_1{
+    left: -50px;
+  }
+  .image-footer{
+    top: 70px;
+    left: 100px;
+  }
+  .image_2-footer{
+    top: 60px;
+    left: 650px;
+  }
+  .tittle_pozdrawia{
+    position: absolute;
+    z-index: 3;
+    left: 300px;
+  }
+  .pretittle{
+    position: absolute;
+    top: 600px;
+    left: 750px;
+  }
+}
+@media screen and (max-width:800px){
+  .container{
+    max-width: 750px;
+  }
+  .tittle_pozdrawia, .pretittle{
+    position: static;
+  }
+  .section-2{
+    height: 1100px;
+  }
+  #img_1{
+    left: 150px;
+    top: 600px;
+  }
+  .image-footer{
+    left: -1px;
+  }
+  .image_2-footer{
+    left: 450px;
+  }
+}
+@media screen and (max-width:550px){
+  .container{
+    max-width: 500px;
+  }
+  #img_1 {
+    left: 40px;
+    top: 650px;
+}
+.footer{
+  height: 1150px;
+}
+.link{
+  max-width: 300px;
+  max-height: 300px;
+}
+.image-footer, .image_2-footer{
+  position: static;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+}
+@media screen and (max-width:360px){
+  .conainer{
+    max-width: 320px;
+  }
+  .tittle_happybirthday {
+    color: #000000;
+    font-size: 30px;
+  }
+  .tittle_pozdrawia{
+    font-size: 30px;
+    text-align: center;
+  }
+  .pretittle{
+    padding-right: 10px;
+  }
+  #img_1 {
+    left: -50px;
+    top: 680px;
+}
+@media screen and (max-width:320px){
+  .container{
+    max-width: 320px;
+  }
+  #img_1 {
+    width: 350px;
+    left: -40px;
+    top: 700px;
+}
+
+
+
